@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Alunos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form-aluno.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-alunos.html">ALUNOS</a>
+            <a href="lista-livros.html">LIVROS</a>
+            <a href="lista-emprestimos.html">EMPRÉSTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE ALUNOS</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="Nome">
+                Nome
+                <br>
+                <input type="text" name="input-nome-aluno" placeholder="Insira o nome do aluno" required>
+            </label>
+            <label for="Sobrenome">
+                Sobrenome
+                <br>
+                <input type="text" name="input-sobrenome-aluno" placeholder="Insira o sobrenome do aluno" required>
+            </label>
+            <label for="Data-nascimento">
+                Data de Nascimento
+                <br>
+                <input type="date" name="input-data-nascimento" placeholder="Insira a data de nascimento do aluno" required>
+            </label>
+            <label for="Endereco">
+                Endereço
+                <br>
+                <input type="text" name="input-endereco-aluno" placeholder="Insira o endereço do aluno" required>
+            </label>
+            <label for="Email">
+                Email
+                <br>
+                <input type="text" name="input-email-aluno" placeholder="Insira o email do aluno" required>
+            </label>
+            <label for="Celular">
+                Celular
+                <br>
+                <input type="text" name="input-celular-aluno" placeholder="Insira o celular do aluno" required>
+            </label>
+            <input type="button" value="CADASTRAR" onclick="cadastrarAluno()">
+        </form>
+    </div>
+    <script src="js/cadastroAluno.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+.inteira {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.ladoE  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    width: 50%;
+}
+
+.ladoD {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-around;
+    justify-content: center;
+    padding-top: 10%;
+    width: 50%;
+}
+
+.texto {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+    text-align: center;
+    font-size: 21px;
+    padding-bottom: 25px;
+}
+
+.logo {
+    width: 60%;
+}
+
+.img1 {
+    width: 45%;
+}

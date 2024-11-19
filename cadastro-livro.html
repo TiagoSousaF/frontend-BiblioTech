@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Alunos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form-aluno.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-alunos.html">ALUNOS</a>
+            <a href="lista-livros.html">LIVROS</a>
+            <a href="lista-emprestimos.html">EMPRÉSTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE LIVROS</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="Titulo">
+                Título
+                <br>
+                <input type="text" name="input-titulo-livro" placeholder="Insira o título do livro" required>
+            </label>
+            <label for="Autor">
+                Autor
+                <br>
+                <input type="text" name="input-autor-livro" placeholder="Insira o autor do livro" required>
+            </label>
+            <label for="Editora">
+                Editora
+                <br>
+                <input type="text" name="input-editora" placeholder="Insira a editora do livro" required>
+            </label>
+            <label for="Ano-publicacao">
+                Ano de Publicação
+                <br>
+                <input type="text" name="input-ano-publicacao-livro" placeholder="Insira o ano de publicação do livro" required>
+            </label>
+            <label for="Isbn">
+                ISBN
+                <br>
+                <input type="text" name="input-isbn-livro" placeholder="Insira o ISBN do livro" required>
+            </label>
+            <label for="Quantidade-total">
+                Quantidade Total
+                <br>
+                <input type="number" name="input-quantidade-total-livro" placeholder="Insira a quantidade total deste livro" required>
+            </label>
+            <label for="Quantidade-disponivel">
+                Quantidade Disponível
+                <br>
+                <input type="number" name="input-quantidade-disponivel-livro" placeholder="Insira a quantidade disponível deste livro" required>
+            </label>
+            <label for="Valor-aquisicao">
+                Valor Aquisição
+                <br>
+                <input type="number" name="input-valor-aquisicao-livro" placeholder="Insira o valor de aquisição deste livro" required>
+            </label>
+            <label for="Status-emprestimo">
+                Status do Empréstimo
+                <br>
+                <input type="text" name="input-status-emprestimo-livro" placeholder="Insira o status de empréstimo deste livro" required>
+            </label>
+            <input type="button" value="CADASTRAR" onclick="cadastrarLivro()">
+        </form>
+    </div>
+    <script src="js/cadastroLivro.js"></script>
+</body>
+</html>

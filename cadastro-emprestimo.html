@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Empréstimos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form-aluno.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-alunos.html">ALUNOS</a>
+            <a href="lista-livros.html">LIVROS</a>
+            <a href="lista-emprestimos.html">EMPRÉSTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE EMPRÉSTIMOS</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="Id-aluno">
+                ID Aluno
+                <br>
+                <input type="number" name="input-id-aluno" placeholder="Insira o ID do aluno" required>
+            </label>
+            <label for="Id Livro">
+                ID Livro
+                <br>
+                <input type="number" name="input-id-livro" placeholder="Insira o ID do livro" required>
+            </label>
+            <label for="Data-emprestimo">
+                Data de Empréstimo
+                <br>
+                <input type="date" name="input-data-emprestimo" placeholder="Insira a data de empréstimo do livro" required>
+            </label>
+            <label for="Data-devolucao">
+                Data de Devolução
+                <br>
+                <input type="date" name="input-data-devolucao" placeholder="Insira a data de devolução do livro" required>
+            </label>
+            <label for="Status-emprestimo">
+                Status Empréstimo
+                <br>
+                <input type="text" name="input-status-emprestimo" placeholder="Insira o status de empréstimo do livro" required>
+            </label>
+            <input type="button" value="CADASTRAR" onclick="enviaFormulario()">
+        </form>
+    </div>
+    <script src="js/carro.js"></script>
+</body>
+
+</html>
